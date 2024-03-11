@@ -1,0 +1,44 @@
+/* //Left Nav */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+div.left-nav {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 30px;
+}
+li {
+  list-style: none;
+}
+
+/* Right Nav */
+
+.right-nav {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.register-btn {
+  border: 1px solid #00000081;
+  border-radius: 12px;
+  padding: 8px 15px;
+}
+h2 span {
+  font-size: 30px;
+}
