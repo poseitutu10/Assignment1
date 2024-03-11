@@ -11,9 +11,7 @@ const LeftMain = ({ imgAudio, imgData, imgMaker, imgMeet }) => {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <p className="learn-btn">
-          <span>Learn more</span>
-        </p>
+        <button className="learn-btn">Learn more</button>
         <div className="logo">
           <img src={imgData} />
           <img src={imgAudio} />
